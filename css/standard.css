@@ -1,0 +1,363 @@
+html {
+	background-color: #f3f7e0;
+	font-family: Verdana, "Lucida Grande", Lucida, sans-serif;
+}
+
+em {
+	font-style: italic;
+}
+
+blockquote {
+	padding-left: 10px;
+	margin: 10px 30px;
+	border-left: 2px solid #999;
+	font-size: 11px;
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+header, footer, nav, article {
+	display:block;
+}
+
+#viewport {
+	width: 1020px;
+	margin: 0px auto;
+	background-color: #D4E494;
+	overflow: hidden;
+}
+
+/* @group Admin */
+
+.admin {
+	color: #d0f7fe;
+	background-color: #cad2fc;
+	padding: 5px;
+	border: 1px solid #969dbc;
+	margin: 15px;
+}
+
+.admin a {
+	text-decoration: none;
+	color: #3e5b81;
+	z-index: 1;
+}
+
+.admin a
+
+/* @end */
+
+/* @group Form */
+
+label {
+	display: block;
+	width: 100px;
+	margin-top: 10px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+/* @end */
+
+
+/* @group Header */
+
+header {
+	height: 185px;
+	background-color: #44382D;
+}
+
+header div {
+	width: 50%;
+	float: left;
+}
+
+header #logo {
+	height: 185px;
+	overflow: hidden;
+}
+
+header #logo img {
+}
+
+header #logo #beetle {
+	width: 124px;
+	height: 115px;
+	margin: 35px 0 0 77px;
+}
+
+header #logo #brownrays {
+	width: 430px;
+	height: 142px;
+	position: relative;
+	top: -71px;
+	left: 47px;
+}
+
+header #logo #nameplate {
+	width: 231px;
+	height: 57px;
+	position: relative;
+	top: -195px;
+	left: 215px;
+}
+
+header #links {
+	width: 380px;
+	float: left;
+	list-style-type: none;
+	margin-top: 115px;
+	margin-left: 40px;
+}
+
+header #links .divider {
+	background-image: url(/images/divider.png);
+	width: 2px;
+	height: 30px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+header #links a {
+	text-decoration: none;
+	border-style: none;
+	display: block;
+	margin-top: 3px;
+}
+
+header #links .active {
+	background: url(/images/underline.png) no-repeat 0 31px;
+}
+
+header #links li {
+	height: 33px;
+	float: left;
+	display: block;
+}
+
+header #links #home {
+	width: 43px;
+	height: 20px;
+	background-image: url(/images/home.png);
+}
+
+header #links #blog {
+	width: 31px;
+	height: 24px;
+	background-image: url(/images/blog.png);
+}
+
+header #links #software {
+	width: 71px;
+	height: 24px;
+	background-image: url(/images/software.png);
+}
+
+header #links #goodies {
+	width: 59px;
+	height: 24px;
+	background-image: url(/images/goodies.png);
+}
+
+header #links #about {
+	width: 44px;
+	height: 20px;
+	background-image: url(/images/about.png);
+}
+
+/* @end */
+
+/* @group Content */
+
+.banner {
+	height: 63px;
+	width: 270px;
+	display: block;
+	position: relative;
+	left: -15px;
+	top: 20px;
+	background: url(/images/banner_mid.png) repeat-x;
+	margin-bottom: 12px;
+}
+
+.banner img {
+	position: absolute;
+	top: 10px;
+	left: 70px;
+}
+
+.banner .left {
+	width: 10px;
+	height: 63px;
+	background: url(/images/banner_left.png) no-repeat;
+}
+
+#content {
+}
+
+
+#content #greenrays {
+	width: 927px;
+	height: 132px;
+	position: absolute;
+}
+
+#content #wrapper {
+	width: 850px;
+	margin: 0 auto;
+	top: 25px;
+	position: relative;
+	background-color: #f3f7e0;
+	padding-top: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#content #wrapper>div {
+	background-color: #ffffff;
+	width: auto;
+	height: 100%;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+#content .item {
+	float: left;
+	width: 400px;
+	background-color: r ed;
+	margin: 10px;
+}
+
+#content .item img {
+	margin-right: 10px;
+}
+
+#content .item div {
+	font: 12px Verdana, "Lucida Grande", Lucida, sans-serif;
+	color: #424242;
+	margin-top: 14px;
+}
+
+#content .item .title {
+	color: #60c3c8;
+	margin-top: 20px;
+}
+
+
+#content .row {
+}
+
+#content .item img {
+	float: left;
+}
+
+/* @end */
+
+#sparkles .blank, #sparkles img {
+	width: 19px;
+	height: 19px;
+	float: left;
+	margin: 0px;
+}
+
+/* @group Footer */
+
+footer #group {
+	width: 768px;
+	margin: 0px auto;
+}
+
+footer #group div {
+	float: left;
+	width: 256px;
+}
+
+footer .sub {
+	font: bold 12px Verdana, "Lucida Grande", Lucida, sans-serif;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	color: #60c3c8;
+}
+
+footer .sub a {
+	color: #60c3c8;
+}
+
+#twitter {
+	width: 360px;
+}
+
+#smart {
+}
+
+#friends {
+}
+
+/* @end */
+
+/* @group Goodies */
+
+.goody {
+	font-family: Verdana, Lucida, "Lucida Grande", sans-serif;
+	color: #60c3c8;
+}
+
+.goody .details {
+	float: left;
+	margin-top: 15px;
+	width: 500px;
+}
+
+.goody .download {
+	float: left;
+	margin-top: 15px;
+}
+
+.goody .title {
+	font-size: 18px;
+}
+
+.goody .quip {
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+.goody .technology {
+	font-size: 12px;
+}
+
+.goody p {
+	color: #424242;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.goody img {
+	float: left;
+}
+
+.goody>div {
+	float: left;
+}
+
+/* @end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
