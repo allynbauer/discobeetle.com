@@ -128,41 +128,45 @@ header #links a {
 	margin-top: 3px;
 }
 
-header #links .active {
-	background: url(/images/underline.png) no-repeat 0 31px;
-}
-
 header #links li {
 	height: 33px;
 	float: left;
 	display: block;
 }
 
-header #links #home {
+.page--home #home,
+.page--blog #blog,
+.page--software #software,
+.page--goodies #goodies,
+.page--about #about {
+	background: url(/images/underline.png) no-repeat 0 31px;
+}
+
+header #links #home a {
 	width: 43px;
 	height: 20px;
 	background-image: url(/images/home.png);
 }
 
-header #links #blog {
+header #links #blog a {
 	width: 31px;
 	height: 24px;
 	background-image: url(/images/blog.png);
 }
 
-header #links #software {
+header #links #software a {
 	width: 71px;
 	height: 24px;
 	background-image: url(/images/software.png);
 }
 
-header #links #goodies {
+header #links #goodies a {
 	width: 59px;
 	height: 24px;
 	background-image: url(/images/goodies.png);
 }
 
-header #links #about {
+header #links #about a {
 	width: 44px;
 	height: 20px;
 	background-image: url(/images/about.png);
